@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>DigitalServer</name>
+	<comment></comment>
+	<projects>
+		<project>app_td_core</project>
+		<project>app_td_controllers</project>
+		<project>app_td_pipelines</project>
+		<project>app_td_custom</project>
+		<project>bm_tools</project>
+		<project>bm_integrationframework</project>
+		<project>app_td_logging</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.demandware.studio.server.uploadBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.demandware.studio.server.serverProjectNature</nature>
+	</natures>
+</projectDescription>

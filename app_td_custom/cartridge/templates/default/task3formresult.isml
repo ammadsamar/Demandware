@@ -1,0 +1,18 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<iscache type="relative" hour="24"/>
+<isdecorate template="content/home/pt_storefront">
+<iscontent type="text/html" charset="UTF-8" compact="true" />
+<isinclude template="util/modules"/> 
+
+<head></head>
+<body>
+<h1>Task 3 Form Result</h1>
+<p>Thank you for entering: </p>
+<p>${pdict.CurrentForms.task3.preference.label} ${pdict.CurrentForms.task3.preference.value}</p>
+<p>${pdict.CurrentForms.task3.color.label} ${pdict.CurrentForms.task3.color.value}</p>
+<p>${pdict.CurrentForms.task3.indoor.label} ${pdict.CurrentForms.task3.indoor.value}</p>
+
+
+</body>
+</html>
+</isdecorate>

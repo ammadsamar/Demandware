@@ -1,0 +1,29 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<iscache type="relative" hour="24"/>
+<isdecorate template="content/home/pt_storefront">
+<iscontent type="text/html" charset="UTF-8" compact="true" />
+<isinclude template="util/modules"/> 
+
+<h1>Select Preferences</h1>
+
+<form action="${URLUtils.httpsContinue()}" method="post" class="form-horizontal" id="task3form">
+	<fieldset>
+		<isinputfield formfield="${pdict.CurrentForms.task3.preference}" type="input" />
+		
+		<isinputfield formfield="${pdict.CurrentForms.task3.color}" type="select"/>
+		
+		<isinputfield formfield="${pdict.CurrentForms.task3.indoor}" type="checkbox"    />
+	
+	</fieldset>
+	<fieldset>
+			<button type="submit"
+				name="${pdict.CurrentForms.task3.submit.htmlName}"
+				value="submit">Submit</button>
+			<button type="cancel"
+				name="${pdict.CurrentForms.task3.cancel.htmlName}"
+				value="submit">Cancel</button>
+	</fieldset>
+</form>
+
+	
+</isdecorate>

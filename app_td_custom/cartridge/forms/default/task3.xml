@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+	<field formid="preference" label="preference:"  type="string" mandatory="true"/>
+	
+	<field formid="color" label="Color:" type="string" mandatory="true">
+	
+		<options>
+			
+			<option label="Red" value="Red"/>
+			<option label="Blue" value="Blue"/>
+			<option label="Orange" value="Orange"/>
+			<option label="Black" value="Black"/>
+			<option label="Pink" value="Pink"/>
+			<option label="purple" value="purple"/>
+			<option label="Green" value="Green"/>
+			<option label="Yellow" value="Yellow"/>
+			<option label="White" value="White"/>
+			<option label="Brown" value="Brown"/>
+			<option label="Grey" value="Grey"/>
+			<option label="Golden" value="Golden"/>
+			<option label="Silver" value="Silver"/>
+			</options>
+	</field>
+	
+	<field formid="indoor" label="Indoor:" type="boolean" mandatory="true" >
+	</field>
+	<action formid="submit" valid-form="true"/>
+	<action formid="cancel" valid-form="false"/>
+</form>
